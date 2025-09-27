@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\perla-metro-ticketService.props" />
+</Project>
