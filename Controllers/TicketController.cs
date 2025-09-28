@@ -8,17 +8,30 @@ using perla_metro_ticketService.Repositories;
 
 namespace perla_metro_ticketService.Controllers
 {
+    /// <summary>
+    /// Controlador encargado de gestionar la API de Tickets.
+    /// 
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class TicketController : ControllerBase
     {
         private readonly TicketRepository _repository;
+
+        /// <summary>
+        /// Inicializador del controlador con el repositorio de tickets
+        /// </summary>
+        /// <param name="repository">Repositorio de tickets</param>
         public TicketController(TicketRepository repository)
         {
             _repository = repository;
         }
 
-        // Crear nuevo Ticket
+        /// <summary>
+        /// Creacion de un nuevo ticket
+        /// </summary>
+        /// <param name="ticket">ticket a crear</param>
+        /// <returns>Http 201 si se creo correctamente, 400 si esta duplicado</returns>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Ticket ticket)
         {
@@ -33,7 +46,10 @@ namespace perla_metro_ticketService.Controllers
             return CreatedAtAction(nameof(GetById), new { id = ticket.TicketId }, ticket);
         }
 
-        // Ver todos los tickets en sistema
+        /// <summary>
+        /// Obtener todos los tickets en el sistema
+        /// </summary>
+        /// <summary>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -41,7 +57,11 @@ namespace perla_metro_ticketService.Controllers
             return Ok(tickets);
         }
 
-        // Ver ticket por ID
+        /// <summary>
+        /// Obtener por id un ticket
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>ticket encontrado o 400 de lo contrario</returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(string id)
         {
@@ -50,7 +70,12 @@ namespace perla_metro_ticketService.Controllers
             return Ok(ticket);
         }
 
-        // Editar ticket existente
+        /// <summary>
+        /// Editar un ticket existente en sistema
+        /// </summary>
+        /// <param name="id">Id de ticket a editar</param>
+        /// <param name="ticket">el ticket actualizado</param>
+        /// <returns>200 si se edito, 400 si no es valido su estado o 401 si no se encuentra</returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] Ticket ticket)
         {
@@ -66,7 +91,11 @@ namespace perla_metro_ticketService.Controllers
             return Ok(ticket);
         }
 
-        // Soft Delete/Eliminar ticket
+        /// <summary>
+        /// Eliminación Soft Delete de un ticket, marcandolo inactivo
+        /// </summary>
+        /// <param name="id">Id de ticket a desactivar</param>
+        /// <returns>200 con mensaje de confirmación</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
