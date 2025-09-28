@@ -25,11 +25,6 @@ C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ti
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\perla-metro-ticketService.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets\msbuild.perla-metro-ticketService.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets\msbuild.build.perla-metro-ticketService.props
-C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.perla-metro-ticketService.props
-C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.perla-metro-ticketService.props
-C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\scopedcss\bundle\perla-metro-ticketService.styles.css
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\perla-me.BE14A560.Up2Date
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\perla-metro-ticketService.dll
@@ -37,3 +32,11 @@ C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ti
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\perla-metro-ticketService.pdb
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\perla-metro-ticketService.genruntimeconfig.cache
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\ref\perla-metro-ticketService.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\bin\Debug\net8.0\perla-metro-ticketService.staticwebassets.endpoints.json
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\perla-metro-ticketService.sourcelink.json
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 1\perla-metro-ticketService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
